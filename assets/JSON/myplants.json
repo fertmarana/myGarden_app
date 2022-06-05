@@ -1,0 +1,29 @@
+{
+  "myplants": [
+    {
+    "id": "0001",
+    "name": "Camedórea-elegante",
+    "description": "Deve ser colocada em um ambiente distante da janela, recebendo apenas a claridade indireta, já que não suporta os raios do sol. Tem crescimento lento e é de fácil cultivo, exigindo apenas que seu substrato se mantenha úmido.",
+     "image-link" : "https://i1.wp.com/blog.plantei.com.br/wp-content/uploads/2018/03/dicas-de-plantas-faceis-de-cuidar.jpg"
+    },
+    {
+      "id": "0002",
+      "name": "Lírio-da-paz",
+      "description": "É uma das poucas folhagens ornamentais que podem florescer dentro de casa, com pouca luz. A planta é fácil de cuidar e se multiplica rapidamente, formando densas touceiras.",
+      "image-link": "https://i3.wp.com/blog.plantei.com.br/wp-content/uploads/2018/03/lirio-da-paz.png"
+    },
+    {
+      "id": "0003",
+      "name": "Samambaia",
+      "description": "Ela gosta de sombra e umidade, portanto, é importante borrifar água em suas folhas sempre que o clima estiver seco.",
+      "image-link": ""
+    },
+    {
+      "id": "0004",
+      "name": "Suculentas",
+      "description": "Apreciam luz solar direta ou sombra parcial e se desenvolvem bem em diferentes tipos de clima.",
+      "image-link": "https://i1.wp.com/blog.plantei.com.br/wp-content/uploads/2018/03/suculentas-faceis-de-cuidar.jpg"
+    }
+
+    ]
+}
