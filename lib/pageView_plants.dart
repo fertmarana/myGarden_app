@@ -49,7 +49,7 @@ class pageView_plants extends StatelessWidget {
               decoration: BoxDecoration(
                 image: new DecorationImage(
                   //color: Color(0xffb714365),
-                  image: new ExactAssetImage('images/plants3.jpg'),
+                  image: new ExactAssetImage('assets/images/plants3.jpg'),
                   fit: BoxFit.cover,
                 ),
 
@@ -65,7 +65,7 @@ class pageView_plants extends StatelessWidget {
             decoration: BoxDecoration(
               image: new DecorationImage(
                 //color: Color(0xffb714365),
-                image: new ExactAssetImage('images/plants1.jpeg'),
+                image: new ExactAssetImage('assets/images/plants1.jpeg'),
                 fit: BoxFit.cover,
               ),
 
@@ -78,7 +78,7 @@ class pageView_plants extends StatelessWidget {
             decoration: BoxDecoration(
               image: new DecorationImage(
                 //color: Color(0xffb714365),
-                image: new ExactAssetImage('images/plants2.jpg'),
+                image: new ExactAssetImage('assets/images/plants2.jpg'),
                 fit: BoxFit.cover,
               ),
 

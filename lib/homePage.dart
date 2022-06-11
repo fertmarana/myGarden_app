@@ -13,6 +13,7 @@ class _homePage extends State<homePage> {
     viewportFraction: 1 ,
     initialPage: 0,
   );
+  bool isSwitched = false;
   final drawer = Drawer(
     child: ListView(
       children: <Widget>[
@@ -59,11 +60,13 @@ class _homePage extends State<homePage> {
   void initState() {
     // TODO: implement initState
     super.initState();
+    isSwitched = false;
   }
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return
+      Scaffold(
       key: _scaffoldKey,
       endDrawer: drawer,
       appBar: AppBar(
@@ -80,12 +83,26 @@ class _homePage extends State<homePage> {
         ],
       ),
       body: Container(
+        color: isSwitched? Colors.black: Colors.white,
         child: Align(
           alignment: Alignment.topCenter,
-          child: Wrap(
-            runSpacing: 6.0,
-            direction: Axis.horizontal,
+          child: ListView(
+            //runSpacing: 6.0,
+            //direction: Axis.horizontal,
             children: [
+              Container(
+                alignment: Alignment(0.8,0),
+                child: Switch(
+                  value: isSwitched,
+                  onChanged: (value) {
+                    setState(() {
+                      isSwitched = value;
+                     // print(isSwitched);
+                    });
+                  },
+
+                ),
+              ),
               SizedBox(height: 10.0),
               Container(
                 alignment: Alignment(-0.5, 0.6),

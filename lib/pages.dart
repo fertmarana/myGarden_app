@@ -40,10 +40,10 @@ class MyPagesState extends State<MyPages> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.attach_money ),
-            label: 'Comprar',
-          ),
+          //BottomNavigationBarItem(
+           // icon: Icon(Icons.attach_money ),
+           // label: 'Comprar',
+          //),
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Meu Jardim',
